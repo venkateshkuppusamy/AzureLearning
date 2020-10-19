@@ -60,4 +60,3 @@ az group delete --resource-group venkivmrg
 
 
 
-

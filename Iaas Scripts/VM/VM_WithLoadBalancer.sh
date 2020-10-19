@@ -34,21 +34,29 @@ az network lb rule create --resource-group venkirglb --lb-name venkilb --name ve
     --priority 1001 --protocol tcp --destination-port-range 80
 
 # Create network interface card and add network security group. Each NIC card for a VM and one for load balancer.
-    for %i in (1 2 3) do az network nic create --resource-group venkirglb --name myNic%i --vnet-name myVnet --subnet mySubnet ^
+    for %i in (1 2) do az network nic create --resource-group venkirglb --name myNic%i --vnet-name myVnet --subnet mySubnet ^
         --network-security-group myNetworkSecurityGroup ^
         --lb-name venkilb --lb-address-pools venkibackendpool ^
-    
+
+        az network nic create --resource-group venkirglb --name myNic1 --vnet-name myVnet --subnet mySubnet ^
+        --network-security-group myNetworkSecurityGroup ^
+        --lb-name venkilb --lb-address-pools venkibackendpool 
+        
+        az network nic create --resource-group venkirglb --name myNic2 --vnet-name myVnet --subnet mySubnet ^
+        --network-security-group myNetworkSecurityGroup ^
+        --lb-name venkilb --lb-address-pools venkibackendpool
 
 # 7. Create Virutal machines
 
 # Create a availability set
+
     az vm availability-set create --resource-group venkirglb --name venkiavailset
 
 # create vm within availabilit set
     for %i in (1 2 3) do az vm create --resource-group venkirglb --name myVM%i --availability-set venkiavailset --nics myNic%i --image UbuntuLTS --admin-username venkiuser --generate-ssh-keys --custom-data cloud-init.txt
 
-        az vm create --resource-group venkirglb --name myVM3 --availability-set venkiavailset ^
-        --nics myNic3 --image UbuntuLTS --admin-username venkiuser --generate-ssh-keys --custom-data cloud-init.txt
+        az vm create --resource-group venkirglb --name myVM2 --availability-set venkiavailset ^
+        --nics myNic2 --image UbuntuLTS --admin-username venkiuser --generate-ssh-keys --custom-data cloud-init.txt
 
 
 # 8. Test load balancer
