@@ -1,0 +1,51 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AzureFunctionsVersion>v3</AzureFunctionsVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Logs\beverages at airport_1.jpg" />
+    <None Remove="Logs\Bus card_1.jpg" />
+    <None Remove="Logs\Cab got to hotel_1.jpg" />
+    <None Remove="Logs\Cab hotel to cab_1.jpg" />
+    <None Remove="Logs\Grocery_1.jpg" />
+    <None Remove="Logs\Grocery_2.jpg" />
+    <None Remove="Logs\Grocery_3.jpg" />
+    <None Remove="Logs\Grocery_4.jpg" />
+    <None Remove="Logs\Grocery_5.jpg" />
+    <None Remove="Logs\Grocery_6.jpg" />
+    <None Remove="Logs\Lodgging_1.jpg" />
+    <None Remove="Logs\Lodgging_2.jpg" />
+    <None Remove="Logs\Others_1.jpg" />
+    <None Remove="Logs\Others_2.jpg" />
+    <None Remove="Logs\Others_3.jpg" />
+    <None Remove="Logs\Others_4.jpg" />
+    <None Remove="Logs\Others_5.jpg" />
+    <None Remove="Logs\Others_6.jpg" />
+    <None Remove="Logs\Others_7.jpg" />
+    <None Remove="Logs\Telephone bills_1.jpg" />
+    <None Remove="Logs\Telephone bills_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Logs\beverages at airport_1.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Logs\Bus card_1.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Azure.WebJobs.Extensions.DurableTask" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Azure.WebJobs.Extensions.Storage" Version="4.0.3" />
+    <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="3.0.7" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="host.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="local.settings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>Never</CopyToPublishDirectory>
+    </None>
+  </ItemGroup>
+</Project>
