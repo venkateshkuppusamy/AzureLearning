@@ -1,0 +1,28 @@
+{
+  "_id": "5fae86643472a6ac09b4258c",
+  "index": 0,
+  "guid": "350071c7-fdb3-4eab-9668-2d2d88a62364",
+  "age": 21,
+  "eyeColor": "blue",
+  "email": "toniatrujillo@futuris.com",
+  "phone": "+1 (877) 501-2030",
+  "address": "281 Gem Street, Cumminsville, New Jersey, 9026",
+  "about": "Mollit laboris labore magna labore qui commodo commodo eiusmod velit ullamco. Fugiat ex do deserunt laborum. Commodo duis fugiat pariatur esse amet enim cillum incididunt nulla ex in. Proident sint nostrud labore eiusmod anim irure.\r\n",
+  "registered": "2014-09-22T01:15:18 -06:-30",
+  "friends": [
+    {
+      "id": 0,
+      "name": "Angelia Tillman"
+    },
+    {
+      "id": 1,
+      "name": "York Gordon"
+    },
+    {
+      "id": 2,
+      "name": "Barr Watkins"
+    }
+  ],
+  "greeting": "Hello, undefined! You have 9 unread messages.",
+  "favoriteFruit": "apple"
+}

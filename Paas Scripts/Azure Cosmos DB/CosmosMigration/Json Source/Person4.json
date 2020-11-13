@@ -1,0 +1,28 @@
+{
+  "_id": "5fae86646b9305bb370ea25d",
+  "index": 3,
+  "guid": "b3bb5e23-8cc3-4245-bcfd-3fc755cb5655",
+  "age": 36,
+  "eyeColor": "green",
+  "email": "catherinecarrillo@futuris.com",
+  "phone": "+1 (812) 484-3405",
+  "address": "126 Ashford Street, Nipinnawasee, Kansas, 8191",
+  "about": "Officia voluptate nulla anim laborum nulla anim voluptate aliquip tempor eiusmod labore aute. Aliquip ullamco ullamco nostrud veniam consectetur irure id sint. Enim aliqua Lorem do nisi sit deserunt commodo esse. Anim elit labore occaecat deserunt nulla pariatur adipisicing sunt veniam aliquip excepteur voluptate id. Nostrud ullamco labore aute do adipisicing consectetur nulla quis nulla fugiat veniam in esse. Aliqua magna ex anim reprehenderit.\r\n",
+  "registered": "2018-04-27T02:13:39 -06:-30",
+  "friends": [
+    {
+      "id": 0,
+      "name": "Tamara Osborn"
+    },
+    {
+      "id": 1,
+      "name": "Casey Hall"
+    },
+    {
+      "id": 2,
+      "name": "Maynard Farley"
+    }
+  ],
+  "greeting": "Hello, undefined! You have 4 unread messages.",
+  "favoriteFruit": "banana"
+}

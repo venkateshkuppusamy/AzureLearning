@@ -1,0 +1,28 @@
+{
+  "_id": "5fae8664c4425b0a7de5f29a",
+  "index": 4,
+  "guid": "1bf7bbae-49ca-4653-a235-32dd0758f5a9",
+  "age": 40,
+  "eyeColor": "blue",
+  "email": "maynardfarley@futuris.com",
+  "phone": "+1 (863) 476-2705",
+  "address": "175 Anna Court, Iola, Puerto Rico, 6947",
+  "about": "Laborum ipsum do sit ut nulla eiusmod. Duis elit cillum aliquip pariatur nisi do exercitation cupidatat Lorem. Deserunt aute magna occaecat Lorem. Aliqua aliqua laboris culpa anim sit exercitation ipsum dolore quis veniam consequat. Excepteur laboris sunt exercitation ad pariatur magna magna quis. Enim consequat eiusmod culpa laborum deserunt occaecat eiusmod ut officia laboris elit tempor proident in.\r\n",
+  "registered": "2014-02-08T06:49:29 -06:-30",
+  "friends": [
+    {
+      "id": 0,
+      "name": "Sandra Tran"
+    },
+    {
+      "id": 1,
+      "name": "Singleton Lawson"
+    },
+    {
+      "id": 2,
+      "name": "Irwin Fuller"
+    }
+  ],
+  "greeting": "Hello, undefined! You have 2 unread messages.",
+  "favoriteFruit": "banana"
+}

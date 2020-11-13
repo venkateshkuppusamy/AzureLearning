@@ -1,0 +1,28 @@
+{
+  "_id": "5fae866441c06ffef8db2799",
+  "index": 1,
+  "guid": "2de4f414-dd9b-4c46-a8ca-e1de85a2c266",
+  "age": 27,
+  "eyeColor": "brown",
+  "email": "barrwatkins@futuris.com",
+  "phone": "+1 (938) 437-2843",
+  "address": "712 Dwight Street, Rivereno, Wisconsin, 1155",
+  "about": "Fugiat deserunt dolor excepteur occaecat adipisicing sint velit. Labore non exercitation fugiat minim duis pariatur enim adipisicing ex deserunt. Fugiat ad irure aute enim anim proident cupidatat est elit aliqua duis eiusmod. Irure sit ea sunt veniam ea exercitation consequat ut voluptate anim esse commodo dolor id. Exercitation tempor ut dolor labore mollit sunt culpa enim enim cillum reprehenderit consectetur aute. Labore eu adipisicing voluptate Lorem dolore.\r\n",
+  "registered": "2015-07-12T07:07:39 -06:-30",
+  "friends": [
+    {
+      "id": 0,
+      "name": "Becker Palmer"
+    },
+    {
+      "id": 1,
+      "name": "Liza Wheeler"
+    },
+    {
+      "id": 2,
+      "name": "Ilene Humphrey"
+    }
+  ],
+  "greeting": "Hello, undefined! You have 5 unread messages.",
+  "favoriteFruit": "strawberry"
+}

@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicCosmosApp", "BasicCosmosApp\BasicCosmosApp.csproj", "{43E9BE41-1722-4492-9FF9-86B86494C837}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{82AD2C6C-D1D9-4DB5-A9B9-13C340CD74F5}"
+	ProjectSection(SolutionItems) = preProject
+		Infra\Cosmosdb.sh = Infra\Cosmosdb.sh
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43E9BE41-1722-4492-9FF9-86B86494C837}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43E9BE41-1722-4492-9FF9-86B86494C837}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43E9BE41-1722-4492-9FF9-86B86494C837}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43E9BE41-1722-4492-9FF9-86B86494C837}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {238B98CE-43E4-49C2-B0A8-8DD350F07148}
+	EndGlobalSection
+EndGlobal

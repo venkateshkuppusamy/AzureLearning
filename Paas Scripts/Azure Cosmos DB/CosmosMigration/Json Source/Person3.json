@@ -1,0 +1,28 @@
+{
+  "_id": "5fae8664d38d01c799eafbfd",
+  "index": 2,
+  "guid": "ed1fb483-8d1d-4853-9e97-16e6e49fd14d",
+  "age": 33,
+  "eyeColor": "brown",
+  "email": "ilenehumphrey@futuris.com",
+  "phone": "+1 (924) 548-2053",
+  "address": "354 Beach Place, Richmond, American Samoa, 4297",
+  "about": "Elit ad dolore ullamco ut deserunt ex non minim consectetur ullamco duis sit dolore occaecat. Mollit et officia incididunt aliqua exercitation veniam. Aliquip esse amet anim occaecat nulla labore pariatur.\r\n",
+  "registered": "2019-08-21T06:27:28 -06:-30",
+  "friends": [
+    {
+      "id": 0,
+      "name": "Richardson Ramsey"
+    },
+    {
+      "id": 1,
+      "name": "Patel Parker"
+    },
+    {
+      "id": 2,
+      "name": "Catherine Carrillo"
+    }
+  ],
+  "greeting": "Hello, undefined! You have 9 unread messages.",
+  "favoriteFruit": "strawberry"
+}
