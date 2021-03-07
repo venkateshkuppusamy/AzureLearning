@@ -1,0 +1,9 @@
+﻿{
+  "$schema": "http://schemastore.org/schemas/json/webjob-publish-settings.json",
+  "webJobName": "NetFrameworkWebjob",
+  "startTime": "2021-03-03T01:00:00+01:00",
+  "endTime": "2021-04-04T00:00:00+01:00",
+  "jobRecurrenceFrequency": "Minute",
+  "interval": 1,
+  "runMode": "Scheduled"
+}
